@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
 
 // 404 PAGE
 app.get("*", (req, res) => {
-    res.send("Page not found");
+    res.send("Page Not Found");
 });
 
 // EXPORT
